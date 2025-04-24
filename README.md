@@ -1,7 +1,7 @@
 # Glove80 Fin Mouse
 The Glove80 Fin Mouse is a custom mouse designed to be used with the [Glove80 keyboard](https://www.moergo.com/collections/glove80-keyboards). It features a unique "fin" design that allows for easy access to a clickable PS4 joystick, making it an ideal companion for the ergonomic keyboard. Using two "fin mice" (one attached to each half of the Glove80) allows for a more complete mouse experience, allowing for both mouse movement and scrolling, as well as separating right and left clicks.
 
-Shoutout to [jhwblender](/jhwblender) for helping me get started on this project!
+Shoutout to [jhwblender](https://github.com/jhwblender) for helping me get started on this project!
 
 Disclaimer: Neither I nor this project are affiliated with Moergo. I'm just a happy owner of the Glove80 keyboard sharing my [customization](https://www.moergo.com/pages/glove80-ergonomic-keyboard-customization) with the community. The Glove80 Fin Mouse is not an official product of Moergo, and any issues or concerns should be directed to me (using the Issues and PRs of this repo), not Moergo.
 
