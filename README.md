@@ -30,14 +30,16 @@ Disclaimer: Neither I nor this project are affiliated with Moergo. I'm just a ha
 ## Building the Physical Mouse
 ### Parts List
 - 2x [PS4 joysticks](https://www.aliexpress.us/item/3256803704783280.html)
-- 2x BLE-capable programmable microcontrollers (I currently use the [ESP32-C3](https://a.co/d/5mvVe4C). It's cheap, small, and low-power -- longer battery life, but limits processing power)
+- 2x BLE-capable programmable microcontrollers (I currently use the [ESP32-C3](https://www.amazon.com/dp/B0DPSNVWB2). It's cheap, small, and low-power -- longer battery life, but limits processing power)
 - 5x small wires
 - 3d printed parts (see [3D printing](#3d-printing) section)
 - 9x M2.5x10 screws
 - Battery parts (TBD)
 
 ### 3D Printing
-The files are located on Thingiverse. Also, should you wish to customize the design, you can find the original models on [OnShape](https://cad.onshape.com/documents/4e451ebac8f57a58c4bef2be/w/d6a3f2496c56cfa3aa2b1f4d/e/0608c30a6e92b27f488ea5b7?renderMode=0&uiState=680a9fd49b7459745121b0ab). I'm not a professional designer, and this model is fairly complex, so my appologies for any aspects that are designed abnormally and/or challenging to work with. Hopefully the variables make it easier to customize overall!
+The files are located on [Thingiverse](https://www.thingiverse.com/thing:7019530). If you have the grey Glove80, I've found that the [Overture "Cement Gray" PLA filament](https://www.amazon.com/dp/B09BQN3N7P) is very close to the same color.
+
+Should you wish to customize the design, you can find the original models on [OnShape](https://cad.onshape.com/documents/4e451ebac8f57a58c4bef2be/w/d6a3f2496c56cfa3aa2b1f4d/e/0608c30a6e92b27f488ea5b7?renderMode=0&uiState=680a9fd49b7459745121b0ab). I'm not a professional designer, and this model is fairly complex, so my appologies for any aspects that are designed abnormally and/or challenging to work with. Hopefully the variables make it easier to customize overall!
 
 ### Assembly
 1. Print the parts using a 3D printer.
