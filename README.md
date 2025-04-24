@@ -114,6 +114,7 @@ The firmware is designed to be easily customizable. You can change the following
 
 ## To-Do's
 - Add wiring diagram
+- Add graph of mouse movement settings
 - Finish designing the battery circuitry
 - Test battery level logic
 - Add battery mounts in the CAD model
