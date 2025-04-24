@@ -58,6 +58,9 @@ TBD
 ### Prerequisites
 The firmware has been developed with [PlatformIO in VS Code](https://platformio.org/platformio-ide). Just get that setup, and you should be good to go! Compatibility with Arduino IDE is not guaranteed, but you can try it if you want. If you do, please let me know if it works or not.
 
+### Dependencies
+The only dependency is the [ESP32-BLE-Mouse library](https://github.com/T-vK/ESP32-BLE-Mouse). This library is included in the project, so you don't need to install it separately. However, it does appear to be abandoned, and so it might be beneficial to review forks and PRs of that repo to see if there are any improvements that can be made.
+
 ### Steps
 1. Clone the repository to your local machine.
 1. Open the project in VS Code.
@@ -98,9 +101,11 @@ The firmware is designed to be easily customizable. You can change the following
 - `BLE_MANUFACTURER`: The manufacturer name of the BLE device. This will be the name that appears in the Bluetooth settings on your computer or mobile device.
 
 ## To-Do's
+- Add wiring diagram/description
 - Finish designing the battery circuitry
 - Test battery level logic
 - Add battery mounts in the CAD model
 - Fine-tune the joystick cavity dimensions
 - Build the right-side version in OnShape
 - Add support in the code for scrolling and right-clicking
+- Review BLE mouse library for any potential improvements from the [original repo's PRs](https://github.com/T-vK/ESP32-BLE-Mouse/pulls)
