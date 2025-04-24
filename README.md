@@ -54,7 +54,17 @@ Should you wish to customize the design, you can find the original models on [On
 1. Test the mouse to ensure it is working properly.
 
 ### Wiring
-TBD
+The wiring is fairly simple. The hard part is the soldering. This list of connections describes which ESP32 GPIO pins connect to which parts of the joystick component.
+
+- `GND` -> one side of the button, and one side of each potentiometer
+- `3.3v` -> the other side of each potentiometer
+- `0` -> the center of the X-axis potentiometer
+- `1` -> the center of the Y-axis potentiometer
+- `2` -> the other side of the button
+- `3` -> the battery voltage divider (see [Battery](#battery) section for more details)
+
+### Battery
+The battery is not yet fully designed. The current plan is to use a 3.7V lithium-ion battery with a USB-C charging circuit. The battery will be connected to the ESP32-C3 using a voltage divider to measure the battery level. The voltage divider will consist of two resistors (R1 and R2) connected in series between the battery and ground. The voltage at the junction of the two resistors will be connected to an analog pin on the ESP32-C3.
 
 ## Flashing the Firmware
 ### Prerequisites
@@ -103,7 +113,7 @@ The firmware is designed to be easily customizable. You can change the following
 - `BLE_MANUFACTURER`: The manufacturer name of the BLE device. This will be the name that appears in the Bluetooth settings on your computer or mobile device.
 
 ## To-Do's
-- Add wiring diagram/description
+- Add wiring diagram
 - Finish designing the battery circuitry
 - Test battery level logic
 - Add battery mounts in the CAD model
