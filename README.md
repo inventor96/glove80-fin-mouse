@@ -31,7 +31,7 @@ Disclaimer: Neither I nor this project are affiliated with Moergo. I'm just a ha
 ### Parts List
 - 2x [PS4 joysticks](https://www.aliexpress.us/item/3256803704783280.html)
 - 2x BLE-capable programmable microcontrollers (I currently use the [ESP32-C3](https://www.amazon.com/dp/B0DPSNVWB2). It's cheap, small, and low-power -- longer battery life, but limits processing power)
-- 5x small wires
+- 5x small wires (22 - 24 AWG or smaller), each about 15cm long
 - 3d printed parts (see [3D printing](#3d-printing) section)
 - 9x M2.5x10 screws
 - Battery parts (TBD)
