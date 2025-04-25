@@ -123,3 +123,4 @@ The firmware is designed to be easily customizable. You can change the following
 - Build the right-side version in OnShape
 - Add support in the code for scrolling and right-clicking
 - Review BLE mouse library for any potential improvements from the [original repo's PRs](https://github.com/T-vK/ESP32-BLE-Mouse/pulls)
+- Add support for interfacing with the Glove80 GPIO pins
