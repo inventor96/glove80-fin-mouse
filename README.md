@@ -98,8 +98,8 @@ The firmware is designed to be easily customizable. You can change the following
 
 ### Battery Settings
 - `BATT_CHECK_INTERVAL`: The time between battery voltage checks in milliseconds. The battery level shouldn't change significantly, so sticking with 60000 (60 seconds) is usually fine.
-- `R1`: The resistor divider R1 value in ohms. This is used to calculate the battery level.
-- `R2`: The resistor divider R2 value in ohms. This is used to calculate the battery level.
+- `R1`: The voltage divider R1 value in ohms. This is used to calculate the battery level.
+- `R2`: The voltage divider R2 value in ohms. This is used to calculate the battery level.
 
 ### Pin Definitions
 - `POT_X_PIN`: The analog pin for the X-axis potentiometer.
