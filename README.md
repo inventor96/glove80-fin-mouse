@@ -113,12 +113,13 @@ The firmware is designed to be easily customizable. You can change the following
 - `BLE_MANUFACTURER`: The manufacturer name of the BLE device. This will be the name that appears in the Bluetooth settings on your computer or mobile device.
 
 ## To-Do's
-- Add wiring diagram
+- Design and test circuitry for improved precision and noise reduction ([see this ChatGPT thread for ideas](https://chatgpt.com/share/680b624c-4cb0-8012-98af-19676a8bf418))
+- Add visual wiring diagram
 - Add graph of mouse movement settings
 - Finish designing the battery circuitry
 - Test battery level logic
 - Add battery mounts in the CAD model
-- Fine-tune the joystick cavity dimensions
+- Fine-tune the joystick cavity dimensions (the joystick rubs against the side of the cavity)
 - Build the right-side version in OnShape
 - Add support in the code for scrolling and right-clicking
 - Review BLE mouse library for any potential improvements from the [original repo's PRs](https://github.com/T-vK/ESP32-BLE-Mouse/pulls)
