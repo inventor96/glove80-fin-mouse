@@ -71,7 +71,7 @@ The battery is not yet fully designed. The current plan is to use a 3.7V lithium
 The firmware has been developed with [PlatformIO in VS Code](https://platformio.org/platformio-ide). Just get that setup, and you should be good to go! Compatibility with Arduino IDE is not guaranteed, but you can try it if you want. If you do, please let me know if it works or not.
 
 ### Dependencies
-The only dependency is the [ESP32-BLE-Mouse library](https://github.com/T-vK/ESP32-BLE-Mouse). This library is included in the project, so you don't need to install it separately. However, it does appear to be abandoned, and so it might be beneficial to review forks and PRs of that repo to see if there are any improvements that can be made.
+The only dependency is the [ESP32-BLE-Mouse library](https://github.com/T-vK/ESP32-BLE-Mouse). This library is included in the project, so you don't need to install it separately. It does appear to be abandoned, but I've added some applicable fixes from PRs for that repo, so hopefully it will be stable.
 
 ### Steps
 1. Clone the repository to your local machine.
@@ -122,5 +122,4 @@ The firmware is designed to be easily customizable. You can change the following
 - Fine-tune the joystick cavity dimensions (the joystick rubs against the side of the cavity)
 - Build the right-side version in OnShape
 - Add support in the code for scrolling and right-clicking
-- Review BLE mouse library for any potential improvements from the [original repo's PRs](https://github.com/T-vK/ESP32-BLE-Mouse/pulls)
 - Add support for interfacing with the Glove80 GPIO pins
