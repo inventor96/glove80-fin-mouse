@@ -114,8 +114,9 @@ The firmware is designed to be easily customizable. You can change the following
 
 ## To-Do's
 - Design and test circuitry for improved precision and noise reduction ([see this ChatGPT thread for ideas](https://chatgpt.com/share/680b624c-4cb0-8012-98af-19676a8bf418))
-- Add visual wiring diagram
-- Add graph of mouse movement settings
+- Add feature to increase mouse speed after being held above a certain threshold for a certain amount of time
+- Add visual wiring diagram to documentation
+- Add graph of mouse movement settings to documentation
 - Finish designing the battery circuitry
 - Test battery level logic
 - Add battery mounts in the CAD model
