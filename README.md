@@ -22,10 +22,11 @@ Disclaimer: Neither I nor this project are affiliated with Moergo. I'm just a ha
 
 ## Known Issues/Limitations
 - The Glove80 Fin Mouse is not compatible with the Glove80 keyboard case. The fin rises above the keyboard, making it impossible to close the case.
-- This is not inherently a precise mouse. This is due to (but not necessarily limited to) the use of potentiometers in the joystick, elecrical noise when using the ESP32's ADC (analog-to-digital converter), the processing power of the ESP32, and processing required for the BLE stack. It's technically possible adjust the movement settings to make it precise, but it might result in a poor user experience because of the difficulty to make faster movements.
-- There might be an issue where the BLE stack disconnects after a long period of time (possibly due to inactivity). Troubleshooting this is still a work in progress.
 - The Glove80 Fin Mouse is not a "plug and play" device. You will need to flash the firmware to the ESP32 before using it. This is a one-time process, but it does require some technical knowledge.
 - At least for the joystick components I found, the physical pressing takes more force than I appreciate. This makes it harder to press it with just your thumb, but I found that using my index finger to support the back of the fin (essentially squeezing the fin) isn't too bad.
+- This is not inherently a precise mouse. This is due to (but not necessarily limited to) the use of potentiometers in the joystick, elecrical noise when using the ESP32's ADC (analog-to-digital converter), the processing power of the ESP32, and processing required for the BLE stack.
+    - It's technically possible adjust the movement settings to make it more precise, but it might result in a poor user experience because of the difficulty to make faster movements.
+    - There's a [to-do item](#to-dos) based on [this ChatGPT thread](https://chatgpt.com/share/680b624c-4cb0-8012-98af-19676a8bf418) to improve the precision, but likely won't be able to get it to the level of a traditional mouse.
 
 ## Building the Physical Mouse
 ### Parts List
