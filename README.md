@@ -125,3 +125,4 @@ The firmware is designed to be easily customizable. You can change the following
 - Build the right-side version in OnShape
 - Add support in the code for scrolling and right-clicking
 - Add support for interfacing with the Glove80 GPIO pins
+- Create a version with the cirque touchpad (e.g. [40mm curved](https://mou.sr/404ezZ3), [40mm flat](https://mou.sr/4d27xbV))
